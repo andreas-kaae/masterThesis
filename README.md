@@ -4,5 +4,5 @@ This GitHub repository is made as a part of the marter thesis for the degree of 
 
 The repository contains all notebooks used to construct the results presented in the thesis.
 
-The structure of the repository is described below:
+The structure of the repository structured in the same way the thesis is. The work which have been done to construct the data is saved in the folder `data_construction`.
 
