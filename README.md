@@ -6,8 +6,8 @@ The repository contains all notebooks used to construct the results presented in
 
 The structure of the repository is structured similarly to the sections of the thesis report with the addition of other folders.
 
-- data - all datafiles used throughout the thesis.
-- data_construction - notebooks used to download, filter and construct the data used through out the thesis.
-- dataExploration - notebooks used to contruct results and plots for the "Dataset" section.
-- methodology - notebooks used to construct results, features and plot for the "Methodology" section.
-- results - notebooks used to construct results and plot for the "Results" section.
+- `data` - folder containing all datafiles used throughout the thesis.
+- `data_construction` - folder containing notebooks used to download, filter and construct the data used through out the thesis.
+- `dataExploration`- folder containing notebooks used to contruct results and plots for the "Dataset" section.
+- `methodology` - folder containing notebooks used to construct results, features and plot for the "Methodology" section.
+- `results` - folder containing notebooks used to construct results and plot for the "Results" section.
