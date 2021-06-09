@@ -4,5 +4,10 @@ This GitHub repository is made as a part of the marter thesis for the degree of 
 
 The repository contains all notebooks used to construct the results presented in the thesis.
 
-The structure of the repository structured in the same way the thesis is. The work which have been done to construct the data is saved in the folder `data_construction`.
+The structure of the repository is structured similarly to the sections of the thesis report with the addition of other folders.
 
+- data - all datafiles used throughout the thesis.
+- data_construction - notebooks used to download, filter and construct the data used through out the thesis.
+- dataExploration - notebooks used to contruct results and plots for the "Dataset" section.
+- methodology - notebooks used to construct results, features and plot for the "Methodology" section.
+- results - notebooks used to construct results and plot for the "Results" section.
