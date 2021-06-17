@@ -8,7 +8,7 @@ The repository contains all notebooks and datafiles used to construct the result
   - `Electric_Vehicle_Charging_Station_Energy_Consumption.csv` - Original raw data from Boulder.
   - `Electric_Vehicle_Charging_Station_Energy_Consumption_cleand_covid.csv` - Original raw data cleaned.
   - `poi_map` - POI map interests
-  - `idle_times.pickle` - Idle times constructed from the plug-in times.
+  - `idle_times.pickle` - Idle times constructed from the plug-in times. The file exceeds the size limit of GitHub. If the file is needed reach out to me and I will find a way to send it to you. 
   - `under_utilization_combinedStations.pkl` - Idle times with original features.
   - `under_utilization_combinedStations_laggedV5.pkl` - Idle times with original and activity features.
   - `ut_poiV6.pkl` - Idle times with original, activity and spatial features.
