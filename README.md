@@ -21,15 +21,33 @@ The repository contains all notebooks and datafiles used to construct the result
   - `FeatureConstruction.ipynb` - construction of activity features.
   - `POI.ipynb` - construction of spatial features
 
-- `dataExploration`- folder containing notebooks used to contruct plots for the "Dataset for Case Study", "Data selection", "Feature construction and exploration" section.
+- `dataExploration`- folder containing notebooks used to contruct plots for the "Dataset for Case Study", "Data selection", "Feature construction and exploration" section. The notebook for the tilted loss function is also included here.
   - `inactivity_level_station.ipynb` - brief exploration of the inactivity level of station.
   - `kaplan_meier_plots.ipynb` - construction of different kaplan-meier plots.
   - `map_plotting.ipynb` - construction of the maps visualized in the thesis.
   - `plots_dataExploration_1.ipynb` - quantile TOD & DOW plots as well as horizontal bar plots.
   - `plots_dataExploration_2.ipynb` - histograms of idle-time and plug-in time and area plot.
+  - `tiltedLoss.ipynb` - construction of tilted loss visualization
+  - `traditional_reg_singleStep_8station.ipynb` - results for the traditional regression methods for the single-step approach with 8 station. 
 
 - `results` - folder containing notebooks used to construct results and plot for the "Modeling strategy" and "Experiments and results" sections
-  - 
+  - `adding_a_nonexistent_station.ipynb` - results of fitting a nonexistent station to the models.
+  - `analysis_of_particular_event.ipynb` - results of specific events.
+  - `classifier.ipynb` - results of classifer used for the two-step approach.
+  - `CPH_singelStep.ipynb` - results of the single-step approach for the CPH method.
+  - `CPH_twoStep.ipynb` - results of the two-step approach for the CPH methods.
+  - `CPH_visualization_singleStep.ipynb` - visualization of the CPH single-step approach for the TOD
+  - `CPH_visualization_twoStep.ipynb` - visualization for the CPH two-step approach.
+  - `DeepSurv_singleStep.ipynb` - results of the DeepSurv single-step approach.
+  - `DeepSurv_twoStep.ipynb` - results of the DeepSurv two-step approach.
+  - `modeling_with_another_existing_station.ipynb` - results from testing the models with a different station then the ones used for training.
+  - `QR_GB_singleStep.ipynb` - results of the gradient boosting quantile regression for the single-step approach. A TOD visualization is also constructed here.
+  - `QR_GB_twoStep.ipynb` - results of the gradient boosting quantile regression for the two-step approach.
+  - `QR_LR_singleStep.ipynb` - results of the linear quantile regression for the single-step approach. 
+  - `QR_LR_twoStep.ipynb` - results of the linear quantile regression for the two-step approach. 
+  - `traditional_reg_perfectCLF.ipynb` - results of the perfect classifier for the traditional regression methods.
+  - `traditional_reg_singleStage_modelSelection.ipynb` - results for the traditional regression methods for the single-step approach. Both the Baseline, Activity, Spatial and Full model are trained and tested.
+  - `traditional_reg_twoStep.ipynb` - results for the traditional regression methods for the two-step approach.
 
 
-- `visualizations` - folder containing all visualizations used in the thesis.
+- `visualizations` - folder containing visualizations constructed by the notebooks described above and used in the thesis.
