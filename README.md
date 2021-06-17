@@ -7,6 +7,9 @@ The repository contains all notebooks used to construct the results presented in
 The structure of the repository is structured similarly to the sections of the thesis report with the addition of other folders.
 
 - `data` - folder containing all datafiles used throughout the thesis.
+  - `Boulder_data_clean-up.ipynb` - cleaning of raw plug-in data
+  - `Boulder_data_idle_times.ipynb` - construction of idle-times.
+  - 
 - `data_construction` - folder containing notebooks used to download, filter and construct the data used through out the thesis.
 - `dataExploration`- folder containing notebooks used to contruct results and plots for the "Dataset" section.
 - `methodology` - folder containing notebooks used to construct results, features and plot for the "Methodology" section.
