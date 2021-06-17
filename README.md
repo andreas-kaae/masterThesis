@@ -21,6 +21,15 @@ The repository contains all notebooks and datafiles used to construct the result
   - `FeatureConstruction.ipynb` - construction of activity features.
   - `POI.ipynb` - construction of spatial features
 
-- `dataExploration`- folder containing notebooks used to contruct results and plots for the "Dataset" section.
-- `methodology` - folder containing notebooks used to construct results, features and plot for the "Methodology" section.
-- `results` - folder containing notebooks used to construct results and plot for the "Results" section.
+- `dataExploration`- folder containing notebooks used to contruct plots for the "Dataset for Case Study", "Data selection", "Feature construction and exploration" section.
+  - `inactivity_level_station.ipynb` - brief exploration of the inactivity level of station.
+  - `kaplan_meier_plots.ipynb` - construction of different kaplan-meier plots.
+  - `map_plotting.ipynb` - construction of the maps visualized in the thesis.
+  - `plots_dataExploration_1.ipynb` - quantile TOD & DOW plots as well as horizontal bar plots.
+  - `plots_dataExploration_2.ipynb` - histograms of idle-time and plug-in time and area plot.
+
+- `results` - folder containing notebooks used to construct results and plot for the "Modeling strategy" and "Experiments and results" sections
+  - 
+
+
+- `visualizations` - folder containing all visualizations used in the thesis.
