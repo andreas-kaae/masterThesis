@@ -2,13 +2,13 @@
 
 This GitHub repository is made as a part of the marter thesis for the degree of Master of Transportation and Logistics at the Technical University of Denmark (DTU). The thesis was prepared at the Section of Transport, DTU Management department of Technology, Management and Economics. The work was carried out between the Janurary 2021 and June 2021, under the supervision of Professor Francisco Camera Pereira (DTU) and Postdoc Inon Peled (DTU).
 
-The repository contains all notebooks and datafiles used to construct the results presented in the thesis. As the work have been an iterative process over 20+ weeks the final naming conventions may differ from file and notebook names. Therefore a brief explanation of every file and notebook is showed below.
+The repository contains all notebooks and datafiles used to construct the results presented in the thesis. As the work have been an iterative process over 20+ weeks the final naming conventions may differ from between files and notebooks. Therefore a brief explanation of every file and notebook is showed below.
 
 - `data` - folder containing all datafiles used throughout the thesis.
   - `Electric_Vehicle_Charging_Station_Energy_Consumption.csv` - Original raw data from Boulder.
   - `Electric_Vehicle_Charging_Station_Energy_Consumption_cleand_covid.csv` - Original raw data cleaned.
   - `poi_map` - POI map interests
-  - `idle_times.pickle` - Idle times constructed from the plug-in times. The file exceeds the size limit of GitHub. If the file is needed reach out to me and I will find a way to send it to you. 
+  - `idle_times.pickle` - Idle times constructed from the plug-in times. OBS The file exceeds the size limit of GitHub. If the file is needed reach out to me and I will find a way to send it to you. 
   - `under_utilization_combinedStations.pkl` - Idle times with original features.
   - `under_utilization_combinedStations_laggedV5.pkl` - Idle times with original and activity features.
   - `ut_poiV6.pkl` - Idle times with original, activity and spatial features.
